@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Cosmos</title>
+</head>
+<body>
+  <!-- Navigation bar section -->
+  <nav style = "background-color: #141922;">
+  <nav class="navbar-section display-flex-center">
+    <div class="navbar-logo">
+      C<span>O</span>SM<span>O</span>S
+    </div>
+    <ul class="navbar-options display-flex-center">
+      <li class="navbar-option display-flex-center">
+        <img src="icons/home-icon.png" alt="Home">
+        <a href="#" class="navibar-link">Home</a>
+      </li>
+      <li class="navbar-option">
+        <img src="icons/destinations-icon.png" alt="Destinations">
+        <a href="#" class="navibar-link">Destinations</a>
+      </li>
+      <li class="navbar-option">
+        <img src="icons/spaceships-icon.png" alt="Spaceships">
+        <a href="#" class="navibar-link">Spaceships</a>
+      </li>
+    </ul>
+    <div class="navbar-cart display-flex-center">
+      <img src="icons/cart-icon.png" alt="Cart"><span id="total-price">0</span>  
+    </div>
+    <div class="hamburger-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+  </nav>
+  <div class="main-section">
+    <!-- Slider(carousel) section -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <!-- First slide -->
+        <div class="carousel-item active">
+          <div class="carousel-slide-content">
+            <img class="carousel-slide-image" src="images/Enceladus.png" alt="Image with Enceladus">
+            <div class="carousel-slide-right-section">
+              <div class="carousel-text">
+                <h2><strong>E</strong>nceladus</h2>
+                <p>is the sixth-largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.<br><br>
+                  Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>    
+              </div>
+              <div class="carousel-slide-price">
+                <div class="price-ticket">
+                  <div class="price">999.990 €</div>
+                  <div class="ticket-type">one way ticket</div>  
+                </div>
+                <button class="purchase-button">Purchase</button>
+              </div>
+            </div>
+            <div class="carousel-slide-details">
+              <p>
+                <strong>ENCELADUS</strong><br>
+                The Saturn System <br>
+                Distance: 9.5 <br>
+                AUPopulation: 3920
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Second slide -->
+        <div class="carousel-item">
+          <div class="carousel-slide-content">
+            <img class="carousel-slide-image" src="images/Hyperion.jpg" alt="Image with Hyperion">
+            <div class="carousel-slide-right-section">
+              <div class="carousel-text">
+                <h2><strong>H</strong>yperion</h2>
+                <p>also known as Saturn VII, is a moon of Saturn discovered by William Cranch Bond, his son George Phillips Bond and William Lassell in 1848.<br><br>
+                  Experience the wonders of the Cosmos on a secure and swift aerospace adventure with us.</p>    
+              </div>
+              <div class="carousel-slide-price">
+                <div class="price-ticket">
+                  <div class="price">878.767 €</div>
+                  <div class="ticket-type">one way ticket</div>  
+                </div>
+                <button class="purchase-button">Purchase</button>
+              </div>
+            </div>
+            <div class="carousel-slide-details">
+              <p>
+                <strong>HYPERION</strong><br>
+                The Saturn System <br>
+                Distance: 25.6 <br>
+                AUPopulation: 20
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Third slide -->
+        <div class="carousel-item">
+          <div class="carousel-slide-content">
+            <img class="carousel-slide-image" src="images/Mimas.jpg" alt="Image with Mimas">
+            <div class="carousel-slide-right-section">
+              <div class="carousel-text">
+                <h2><strong>M</strong>imas</h2>
+                <p>also designated Saturn I, is a natural satellite of Saturn that has the second largest crater on any moon in the Solar System, named Herschel. <br><br>
+                  Embark on an Exciting Journey through the Cosmos with Our Aerospace Company, Offering Both Safety and Speed.</p>            
+              </div>
+              <div class="carousel-slide-price">
+                <div class="price-ticket">
+                  <div class="price">750.000 €</div>
+                  <div class="ticket-type">one way ticket</div>  
+                </div>
+                <button class="purchase-button">Purchase</button>
+              </div>
+            </div>
+            <div class="carousel-slide-details">
+              <p>
+                <strong>MIMAS</strong><br>
+                The Saturn System <br>
+                Distance: 11 <br>
+                AUPopulation: 5618
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <div class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-custom-icon" aria-hidden="true">‹</span>
+        <span class="sr-only">Previous</span>
+      </div>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-custom-icon" aria-hidden="true">›</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Steps indicator section -->
+    <div class="steps-indicator-section">
+      <div class="step grow">
+        <img src="icons/pack-icon.png" alt="An icon with package">
+        <span><strong>p</strong>ack</span>
+      </div>
+      <div class="separator">›</div>
+      <div class="step grow">
+        <img src="icons/fly-icon.png" alt="An icon with a spaceship">
+        <span><strong>f</strong>ly</span>
+      </div>
+      <div class="separator">›</div>
+      <div class="step grow">
+        <img src="icons/live-icon.png" alt="An icon with a plant">
+        <span><strong>l</strong>ive</span>
+      </div>
+      <div class="separator">›</div>
+      <div class="final-step">
+        <span class="first-row">ENJOY</span><br>
+        <span class="second-row">A NEW WORLD!</span>
+      </div>
+    </div>
+    <!-- About offer section -->
+    <div class="about-offer-section">
+      <h2 class="about-offer-section-title"><strong>P</strong>FL package</h2>
+      <hr>
+      <p>
+        Out pack fly live package includes lpsum dolor sit amet, consectetur adipiscing elit. Vivamus ex ante, tristique sed elit id, scelerisque scelerisque risus.
+        Nulla malesuada suscipit vehicula. Vestibulum mauris purus, malesuada eget laoreet et, mattis eu purus. Sed arcu enim, rhoncus non porta eu, finibus sed erat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet vitae nisi vel ornare. Cras velit neque, tincidunt et purus eu, semper dignissim risus.
+        Quisque gravida interdum ipsum ac dignissim. Aenean fringilla libero leo, vitae varius magna convallis vel. Morbi luctus ligula erat, vitae pulvinar nunc pretium nec.
+        Integer id facilisis nibh. In porta at tellus eget consectetur. Vestibulum nisl nunc, euismod a aliquet sit amet, fermentum in massa. <br><br>
+        Nunc quis eros facilisis, sagittis ex vitae, mattis sapien. Duis feugiat dictum vehicula. Nullam vestibulum tellus nisi, eu euismod velit finibus et.
+        Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit,
+        magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet. <br><br>
+        Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit.
+        Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet.
+      </p>
+      <button class="checkout-button">Checkout</button>
+    </div>
+  </div>
+  <!-- Footer section -->
+  <footer style = "background-color: #141922;">
+    <div class="footer-section">
+      <p>Copyright COSMOS 2022. All rights reserved.</p>
+      <p>All data and company references are purely fictitious and<br>shouldn’t be confused with real world entities or names.</p>
+    </div>
+  </footer> >
+  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
