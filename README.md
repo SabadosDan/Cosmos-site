@@ -1,2 +1,3 @@
 # Cosmos-site
-A fictional site made with HTML, CSS and JavaScript.
+A fictional responsive site made with HTML, CSS and JavaScript.
+Check it out [HERE](https://cosmostothemoon.netlify.app) .
